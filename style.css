@@ -1,0 +1,32 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color : white
+}
+
+h1{
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.task{
+    margin: 0 3rem;
+    padding: 1rem;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.task ul{
+    margin: 2rem 3rem;
+}
+
+ul li{
+    margin: 1rem 0;
+    display : flex;
+    justify-content: space-between;
+}
+

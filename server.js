@@ -31,6 +31,8 @@ app.get("/", (req, res) => {
 
 // Middleware pour lire le JSON
 app.use(express.json());
+//pour lire les fichier static
+app.use(express.static(__dirname));
 
 // Tableau en mémoire (pas de base de données pour ce test)
 let tasks = ["Revoir React", "Préparer entretien"];
